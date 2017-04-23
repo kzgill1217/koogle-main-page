@@ -56,7 +56,7 @@ footer {
 }
 
 .koogle-logo {
-    width: 50%;
+    width: 33%;
     height: auto;
     margin: 0 auto;
     display: block;
@@ -73,9 +73,9 @@ section {
 }
 
 input {
-    padding: 5px 15px;
+    padding: 0 15px;
     height: 30px;
-    width: 50%;
+    width: 40%;
     box-shadow: 1px;
 }
 
@@ -92,8 +92,14 @@ form button {
     border: 1px solid #f2f2f2;
 }
 
+
+
 form button:hover {
     border: 1px solid #8a8c8e;
+}
+
+footer {
+    margin-top: 30px;
 }
 
 .footer-left {
