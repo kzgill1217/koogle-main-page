@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: arial,sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 10px 0 0 0;
+    width: 100%;
+    text-align: right;
+    display: block;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+ul li {
+    display: inline;
+    padding-right: 15px;
+}
+
+ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    opacity: .8;
+}
+
+header li a img {
+    position: relative;
+    top: 8px;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    background: linear-gradient(#4387fd,#4683ea);
+    border: 1px solid #4285f4;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: solid 1px #e4e4e4;
+    background-color: rgb(242, 242, 242);
+    padding-bottom: 20px;
+}
+
+.koogle-logo {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    padding: 5px 15px;
+    height: 30px;
+    width: 50%;
+    box-shadow: 1px;
+}
+
+input:focus { 
+    box-shadow: 1px 1px 5px 3px;
+}
+
+form button {
+    font-weight: bold;
+    color: #6d6d6d;
+    margin-top: 15px;
+    padding: 9px 16px;
+    background-color: #f1f1f1;
+    border: 1px solid #f2f2f2;
+}
+
+form button:hover {
+    border: 1px solid #8a8c8e;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+    padding-right: 20px;
+}
+
+
+
